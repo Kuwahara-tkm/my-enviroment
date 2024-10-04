@@ -17,7 +17,9 @@ docker exec -u 0 -it $CONTAINER_NAME /bin/zsh
 ```
 
 # TensorBord run
+```
 tensorboard --logdir=runs --host=0.0.0.0 --port=8888
+```
 
 # TensorBord (chrome)
 http://localhost:8888
