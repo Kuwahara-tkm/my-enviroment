@@ -12,6 +12,9 @@ docker run --gpus all -dit -p 8888:8888 -v /home/takumi-k/docker/sample/work:/wo
 ```
 docker exec -u 0 -it $CONTAINER_NAME /bin/bash  
 ```
+```
+docker exec -u 0 -it $CONTAINER_NAME /bin/zsh
+```
 
 # TensorBord run
 tensorboard --logdir=runs --host=0.0.0.0 --port=8888
