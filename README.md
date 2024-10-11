@@ -4,11 +4,13 @@ docker build ./ -t $IMAGE_NAME
 ```
 
 # docker run command
+#### arch-kuwahara(WSL)
 ```
 docker run --gpus all -dit -p 8888:8888 -v /home/takumi-k/docker/sample/work:/work --name $CONTAINER_NAME  $IMAGE_NAME
 ```
+#### cad-kuwahara
 ```
-docker run --gpus all -dit -p 8888:8888 -v /home/kuwahara-arch/Documents/kenkyu/SpikingLCA:/work --name $CONTAINER_NAME  $IMAGE_NAME
+docker run --gpus all -dit -p 8888:8888 -v /home/kuwahara-arch/Documents/kenkyu/SpikingLCA/work:/work --name $CONTAINER_NAME  $IMAGE_NAME
 ```
 
 # enter into docker container
