@@ -18,11 +18,11 @@ nnoremap <C-f> :Fern . -reveal=% -drawer -toggle -width=40<CR>
 highlight Visual ctermfg=black ctermbg=yellow
 highlight LineNr ctermbg=NONE guibg=NONE
 filetype plugin indent on
-inoremap { {}<LEFT> 
-inoremap [ []<LEFT> 
-inoremap ( ()<LEFT> 
-inoremap " ""<LEFT> 
-inoremap ' ''<LEFT> 
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
 set encoding=utf-8
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=4
