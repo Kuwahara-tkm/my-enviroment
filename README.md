@@ -13,7 +13,7 @@ docker run --gpus all -dit -p 8888:8888 -v /home/takumi-k/docker/sample/work:/wo
 docker run --gpus all -dit -p 8888:8888 -v /home/kuwahara-arch/Documents/kenkyu/SpikingLCA/work:/work --name $CONTAINER_NAME  $IMAGE_NAME
 ```
 
-#### cad-kuwahara
+#### cad111
 ```
 docker run --gpus all -dit -p 8888:8888 -v /mnt/kuwahara/Cognitive-Tasks-with-Spiking-LCA:/work --name $CONTAINER_NAME  $IMAGE_NAME
 ```
