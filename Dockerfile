@@ -67,11 +67,11 @@ RUN echo 'call plug#begin("~/.vim/plugged")' >> ~/.vimrc && \
     echo 'highlight Visual ctermfg=black ctermbg=yellow' >> ~/.vimrc && \
     echo 'highlight LineNr ctermbg=NONE guibg=NONE' >> ~/.vimrc && \
     echo 'filetype plugin indent on' >> ~/.vimrc && \
-    echo 'inoremap { {}<LEFT> ' >> ~/.vimrc && \
-    echo 'inoremap [ []<LEFT> ' >> ~/.vimrc && \
-    echo 'inoremap ( ()<LEFT> ' >> ~/.vimrc && \
-    echo 'inoremap " ""<LEFT> ' >> ~/.vimrc && \
-    echo "inoremap ' ''<LEFT> " >> ~/.vimrc && \
+    echo 'inoremap { {}<LEFT>' >> ~/.vimrc && \
+    echo 'inoremap [ []<LEFT>' >> ~/.vimrc && \
+    echo 'inoremap ( ()<LEFT>' >> ~/.vimrc && \
+    echo 'inoremap " ""<LEFT>' >> ~/.vimrc && \
+    echo "inoremap ' ''<LEFT>" >> ~/.vimrc && \
     echo "set encoding=utf-8" >> ~/.vimrc && \
     echo "set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8" >> ~/.vimrc && \
     echo 'autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 tabstop=4' >> ~/.vimrc
