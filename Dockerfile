@@ -32,6 +32,8 @@ RUN pip install \
     timm \
     tensorflow \
     matplotlib \
+    transformers \
+    optuna \
     cupy-cuda12x
 
 # vim 最新版
