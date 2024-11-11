@@ -27,11 +27,19 @@ RUN pip install \
     torchaudio \
     torchinfo \
     torchviz \
+    torcheval \
     einops \
     timm \
     tensorflow \
     matplotlib \
     cupy-cuda12x
+
+# vim 最新版
+RUN apt-get update && \
+    apt-get install -y software-properties-common && \
+    add-apt-repository ppa:jonathonf/vim && \
+    apt-get update && \
+    apt-get install -y vim
 
 RUN git clone https://github.com/fangwei123456/spikingjelly.git /work/spikingjelly \
     && cd /work/spikingjelly \
