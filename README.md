@@ -10,7 +10,7 @@ docker run --gpus all -dit -p 8888:8888 -v /home/takumi-k/docker/sample/work:/wo
 ```
 #### cad-kuwahara
 ```
-docker run --gpus all -dit -p 8888:8888 -v /mnt/ssd1/work:/work --name $CONTAINER_NAME  $IMAGE_NAME
+docker run --gpus all -dit -p 8888:8888 -v /mnt/ssd1/work:/work --shm-size=32g --name $CONTAINER_NAME  $IMAGE_NAME
 ```
 
 #### cad111
