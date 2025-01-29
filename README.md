@@ -32,3 +32,10 @@ tensorboard --logdir=runs --host=0.0.0.0 --port=8888
 ```
 
 [TensorBord](http://localhost:8888)
+
+
+# aliasの設定 
+```
+setenv CONTAINER_NAME container_name
+alias docker_zsh 'docker exec -u 0 -it $CONTAINER_NAME /bin/zsh'
+```
